@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
   }
 
-
 body {
     padding: 0;
     margin: 0;
@@ -11,21 +10,28 @@ body {
     color: #fff;
 }
 
+/* Navbar */
 .logo {
     width: 40px;
 }
 
-.card img {
-    height: 200px;
-}
-
-.footer-wrap {
-    display: flex;
-    justify-content: space-around;
-  }
-  
 .nav-black {
     background-color: #000;
     opacity: 0.9;
     color: white;
+}
+
+/* Destacados */
+.card img {
+    height: 200px;
+}
+
+/* Footer */
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+footer a  {
+    text-decoration: none;
   }
